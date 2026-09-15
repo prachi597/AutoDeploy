@@ -6,7 +6,7 @@ const PORT = 3000;
 app.use(express.static("public"));
 
 app.get("/", (req, res) => {
-    res.send("Hello CI/CD Pipeline");
+    res.send("Hello CI/CD Pipeline - Auto Deployed");
 });
 
 app.listen(PORT, "0.0.0.0", () => {
